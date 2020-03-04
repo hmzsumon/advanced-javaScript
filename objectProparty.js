@@ -4,13 +4,13 @@ const student = [
 	{ id: 30, name: 'Moyuri' },
 	{ id: 40, name: 'DipJol' }
 ];
-// const output = [];
-// for (let i = 0; i < student.length; i++) {
-// 	const element = student[i];
-// 	const result = element.name;
-// 	output.push(result);
-// }
-// console.log(output);
+const output = [];
+for (let i = 0; i < student.length; i++) {
+	const element = student[i];
+	const result = element.name;
+	output.push(result);
+}
+console.log(output);
 
 const names = student.map((s) => s.name);
 
